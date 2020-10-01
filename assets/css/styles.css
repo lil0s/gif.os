@@ -86,7 +86,7 @@ button {
   margin-top: 29px;
   width: 129px;
   flex-wrap: wrap;
-  margin-left: 42px;
+  margin-left: 41px;
   height: 69px;
   z-index: 10; }
 
@@ -225,7 +225,7 @@ button {
   position: absolute;
   width: 1.1%;
   height: 0.8%;
-  right: 12px;
+  right: 18px;
   top: 6px; }
 
 .button-blue {
@@ -271,6 +271,13 @@ button {
   letter-spacing: 0;
   line-height: 22px;
   margin-left: -19px; }
+
+.titulo-inst2{
+  margin-top: 2%;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 22px;}  
 
 .instrucciones {
   margin-left: 11%;
@@ -355,8 +362,7 @@ ol {
   box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000; }
 
 .progress-bar-preview {
-  height: 20px;
-  margin-top: 2px; }
+  height: 20px;}
 
 .play-gif {
   float: left;
@@ -369,14 +375,13 @@ ol {
 
 .progress-bar-upload {
   height: 20px;
-  margin-top: 9px;
-  margin-left: 59px;
-  text-align: -moz-center; }
+  margin-top: 9px;}
 
 .barra-upload {
-  display: flex;
-  width: 63%;
-  margin-top: 42px; }
+    display: flex;
+    margin-top: 80px;
+    flex-direction: row;
+    justify-content: center;}
 
 .barritas {
   width: 12px;
@@ -401,8 +406,7 @@ ol {
   letter-spacing: 0;
   text-align: center;
   line-height: 14px;
-  margin-top: 15px;
-  margin-left: -14px; }
+  margin-top: 15px;}
 
 .time-joke-style {
   text-decoration: line-through; }
@@ -418,7 +422,8 @@ ol {
 
 .preview-download {
   width: 97%;
-  height: 148px; }
+  height: 148px;
+  margin-left: 4px; }
 
 .cont-action-download {
   display: flex;

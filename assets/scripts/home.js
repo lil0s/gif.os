@@ -28,7 +28,7 @@ listen('.mis-guifos', 'click', ()=>{
     showMisGuifos('home');
     getStorage();
 });
-//dios decirle a josefo que use mi direccion porue la otra buscaba en nombre del boton "vermas"
+
 listen('.ver-mas', 'click', (sender)=>{
     mostrarResultado(document.documentElement.parentNode.activeElement.attributes[0].ownerElement.previousElementSibling.alt);
     console.log(get('.hashtag', false, sender.target.parentNode));
@@ -52,6 +52,7 @@ async function contenidoTendencias(endPoint, limit, offset)
     }
 }
 contenidoTendencias(endPoint_trending, 4, 0);
+
 //escucha boton cerrar y carga nuevo gif random de tendencias
 listen('.button-close', 'click', async (sender)=>{
 
