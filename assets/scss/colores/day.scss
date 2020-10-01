@@ -1,0 +1,130 @@
+.tema-dia {
+    background-color: #fff4fd;
+    a{
+        color: #110038;
+    }
+    .welcome {
+        color: #FFFFFF;
+        background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+        box-shadow: 0 1px 0 0 #110038;
+        font-weight: 400;
+    }    
+    //cont-menu-temas
+    // botones abajo colores
+    .mis-guifos{
+        color: #110038;
+        &:hover{
+            border: 1px dotted #110038;
+        }
+        &:active{
+            color: #B4B4B4;
+        }
+        &:visited{
+            color: #110038;
+        }
+    }
+
+    // contenedores
+    .titulo-cont {
+        background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+        color: #FFFFFF;
+    }
+    .contenedor {
+        background: #E6E6E6;
+        box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    } 
+    .cuadro-static{
+        background: #E6E6E6;
+        box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    }   
+    .cuadro {
+        &:hover {
+            background: #E6E6E6;
+            box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+        }
+    }
+    .input-buscar , .contador{
+        background: #FFFFFF;
+        border: 1px solid #979797;
+        box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+    }
+    // bloques HOY TE SUGERIMOS, TENDENCIAS
+    .titulo-bloques {
+        background: #FFFAFE;
+        border: 1px solid #E6BBE2;
+        box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+        color: #110038;
+    }
+    .hashtag , .hashtag2 {
+        color: #FFFFFF;
+        background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    }
+    .barritas{
+        background: #999999;
+        border: 1px solid #B4B4B4;
+    }
+    //keyframes
+    @keyframes color{
+        0%{
+            background-color: #999999;
+        }
+        100%{
+            background-color: #F7C9F3;
+        }
+    }    
+    // botones
+    .button-blue , .button-blue2 {
+        background: #4180F6;
+        border: 1px solid #4C2F99;
+        box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+        color: #FFFFFF;
+    }   
+    .button-rose {
+        background-color: #FFF4FD;
+        border: 1px solid #808080;
+        box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    }
+    .button-pink{
+        background: #F7C9F3;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+        &:hover:enabled {
+            background: #E6BBE2;
+            outline: 0.9px dotted #110038;
+            outline-offset: -4px;
+        }
+        &:active {
+            background: #E6BBE2;
+            outline: 0.9px dotted #110038;
+            outline-offset: -4px;
+        }
+        &:disabled {
+            color: #B4B4B4;
+            background: #E6E6E6;
+            border: 1px solid #808080;
+            box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+        }
+    }
+    .button-red{
+        background: #FF6161;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+    }
+    .button-grey{
+        background: #F0F0F0;
+        border: 1px solid #808080;
+        box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+        &:hover {
+            background: #FFF4FD;
+            border: 1px solid #CCA6C9;
+            box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+        }
+        &:active {
+            background: #FFF4FD;
+            border: 1px solid #CCA6C9;
+            box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+        }
+    }
+}
+    
+    
