@@ -63,7 +63,6 @@ listen(".button-close", "click", async (sender) => {
     let oldGif = sender.target.parentNode.nextElementSibling;
     console.log(oldGif);
 
-    console.log("pepe1t");
     let respuesta = await fetch(url + endPoint_trending.replace("{num}", 1).replace("{num2}", random));
 
     let datosFetch = await respuesta.json();
