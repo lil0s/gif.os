@@ -2,7 +2,7 @@
   border: none;
   margin: 0;
   padding: 0;
-  font-family: 'Chakra Petch', sans-serif; }
+  font-family: "Chakra Petch", sans-serif; }
 
 .page-home {
   margin-top: 35px;
@@ -60,13 +60,14 @@ button {
   display: flex;
   justify-content: space-around; }
 
-.crear-gifos, .elegir-tema {
+.crear-gifos,
+.elegir-tema {
   padding: 5px 24px;
   min-width: 40px; }
 
 .flecha {
   margin-left: -8px;
-  color: #FFFFFF; }
+  color: #ffffff; }
 
 .mis-guifos {
   padding: 1px 1px;
@@ -90,7 +91,8 @@ button {
   height: 69px;
   z-index: 10; }
 
-.sailor-day, .sailor-night {
+.sailor-day,
+.sailor-night {
   font-size: 0.8em;
   letter-spacing: 0;
   text-align: left;
@@ -113,7 +115,7 @@ button {
 
 .input-buscar {
   padding: 12px;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid #979797;
   width: 72%; }
 
@@ -225,7 +227,7 @@ button {
   position: absolute;
   width: 1.1%;
   height: 0.8%;
-  right: 18px;
+  right: 12px;
   top: 6px; }
 
 .button-blue {
@@ -255,7 +257,9 @@ button {
   min-width: 548px;
   max-width: 600px; }
 
-#cont-captura, #upload, #download {
+#cont-captura,
+#upload,
+#download {
   display: none;
   justify-content: center;
   min-width: 832px;
@@ -272,12 +276,12 @@ button {
   line-height: 22px;
   margin-left: -19px; }
 
-.titulo-inst2{
+.titulo-inst2 {
   margin-top: 2%;
   font-size: 16px;
   color: #110038;
   letter-spacing: 0;
-  line-height: 22px;}  
+  line-height: 22px; }
 
 .instrucciones {
   margin-left: 11%;
@@ -322,14 +326,18 @@ ol {
 .botones {
   margin: 6px; }
 
-.captura-video, .preview-gif, .cont-uploading, .preview-download {
+.captura-video,
+.preview-gif,
+.cont-uploading,
+.preview-download {
   width: 97%;
   margin: auto; }
 
 .preview-gif {
   display: none; }
 
-#current-counter, #counter {
+#current-counter,
+#counter {
   text-align: center;
   padding-top: 5px; }
 
@@ -357,12 +365,12 @@ ol {
 .contador {
   height: 29px;
   width: 115px;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid #979797;
-  box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000; }
+  box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000; }
 
 .progress-bar-preview {
-  height: 20px;}
+  height: 20px; }
 
 .play-gif {
   float: left;
@@ -375,13 +383,13 @@ ol {
 
 .progress-bar-upload {
   height: 20px;
-  margin-top: 9px;}
+  margin-top: 9px; }
 
 .barra-upload {
-    display: flex;
-    margin-top: 80px;
-    flex-direction: row;
-    justify-content: center;}
+  display: flex;
+  margin-top: 80px;
+  flex-direction: row;
+  justify-content: center; }
 
 .barritas {
   width: 12px;
@@ -391,9 +399,9 @@ ol {
   display: none; }
 
 .cont-uploading {
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid #979797;
-  box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+  box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000;
   text-align: center;
   padding: 66px 15px; }
 
@@ -406,7 +414,7 @@ ol {
   letter-spacing: 0;
   text-align: center;
   line-height: 14px;
-  margin-top: 15px;}
+  margin-top: 15px; }
 
 .time-joke-style {
   text-decoration: line-through; }
@@ -498,8 +506,7 @@ ol {
   .tema-dia .welcome {
     color: #FFFFFF;
     background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
-    box-shadow: 0 1px 0 0 #110038;
-    font-weight: 400; }
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; }
   .tema-dia .mis-guifos {
     color: #110038; }
     .tema-dia .mis-guifos:hover {
@@ -511,10 +518,7 @@ ol {
   .tema-dia .titulo-cont {
     background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
     color: #FFFFFF; }
-  .tema-dia .contenedor {
-    background: #E6E6E6;
-    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; }
-  .tema-dia .cuadro-static {
+  .tema-dia .fondo-cuadro {
     background: #E6E6E6;
     box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; }
   .tema-dia .cuadro:hover {
@@ -523,7 +527,7 @@ ol {
   .tema-dia .input-buscar, .tema-dia .contador {
     background: #FFFFFF;
     border: 1px solid #979797;
-    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000; }
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; }
   .tema-dia .titulo-bloques {
     background: #FFFAFE;
     border: 1px solid #E6BBE2;
@@ -586,86 +590,93 @@ ol {
 .tema-noche {
   background-color: #110038; }
   .tema-noche a {
-    color: #FFFFFF; }
+    color: #ffffff; }
   .tema-noche .welcome {
-    color: #FFFFFF;
-    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    color: #ffffff;
+    background-image: linear-gradient(270deg, #ee3efe 0%, #2e32fb 100%);
     box-shadow: 0 1px 0 0 #110038;
     font-weight: 400; }
   .tema-noche .mis-guifos {
-    color: #FFFFFF; }
+    color: #ffffff; }
     .tema-noche .mis-guifos:hover {
-      border: 1px dotted #FFFFFF; }
+      border: 1px dotted #ffffff; }
     .tema-noche .mis-guifos:active {
-      color: #B4B4B4; }
+      color: #b4b4b4; }
     .tema-noche .mis-guifos:visited {
-      color: #B4B4B4; }
+      color: #b4b4b4; }
   .tema-noche .titulo-cont {
-    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
-    color: #FFFFFF; }
-  .tema-noche .contenedor {
-    background: #B4B4B4;
-    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF; }
-  .tema-noche .input-buscar {
-    background: #FFFFFF;
+    background-image: linear-gradient(270deg, #ee3efe 0%, #2e32fb 100%);
+    color: #ffffff; }
+  .tema-noche .fondo-cuadro {
+    background: #b4b4b4;
+    box-shadow: inset -2px -2px 0 0 #8f8f8f, inset 2px 2px 0 0 #ffffff; }
+  .tema-noche .cuadro:hover {
+    background: #5c5c5c;
+    box-shadow: inset -2px -2px 0 0 #8f8f8f, inset 2px 2px 0 0 #ffffff; }
+  .tema-noche .input-buscar,
+  .tema-noche .contador {
+    background: #ffffff;
     border: 1px solid #979797;
-    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000; }
+    box-shadow: inset -2px -2px 0 0 #8f8f8f, inset 2px 2px 0 0 #ffffff; }
   .tema-noche .titulo-bloques {
-    background: #FFFAFE;
-    border: 1px solid #2E32FB;
-    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+    background: #fffafe;
+    border: 1px solid #2e32fb;
+    box-shadow: inset -2px -2px 0 0 #8f8f8f, inset 2px 2px 0 0 #ffffff;
     color: #110038; }
-  .tema-noche .hashtag, .tema-noche .hashtag2 {
-    color: #FFFFFF;
-    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%); }
+  .tema-noche .hashtag,
+  .tema-noche .hashtag2 {
+    color: #ffffff;
+    background-image: linear-gradient(270deg, #ee3efe 0%, #2e32fb 100%); }
   .tema-noche .barritas {
     background: #999999;
-    border: 1px solid #B4B4B4; }
+    border: 1px solid #b4b4b4; }
 @keyframes color {
   0% {
     background-color: #999999; }
   100% {
-    background-color: #EE3EFE; } }
+    background-color: #ee3efe; } }
   .tema-noche .button-blue {
-    background: #2E32FB;
-    border: 1px solid #4C2F99;
-    box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
-    color: #FFFFFF; }
+    background: #2e32fb;
+    border: 1px solid #4c2f99;
+    box-shadow: inset -2px -2px 0 0 #8f8f8f, inset 2px 2px 0 0 #ffffff;
+    color: #ffffff; }
   .tema-noche .button-rose {
     background: #110038;
-    border: 1px solid #B4B4B4;
-    box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD; }
+    border: 1px solid #b4b4b4;
+    box-shadow: inset -1px -1px 0 0 #5c5c5c, inset 1px 1px 0 0 #fff4fd;
+    color: #ffffff; }
   .tema-noche .button-pink {
-    background: #EE3EFE;
+    background: #ee3efe;
     border: 1px solid #110038;
-    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
-    color: #FFFFFF; }
+    box-shadow: inset -1px -1px 0 0 #a72cb3, inset 1px 1px 0 0 #ffffff;
+    color: #ffffff; }
     .tema-noche .button-pink:hover:enabled {
-      background: #CE36DB;
+      background: #ce36db;
       border: 1px solid #110038;
-      box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF; }
+      box-shadow: inset -1px -1px 0 0 #a72cb3, inset 1px 1px 0 0 #ffffff; }
     .tema-noche .button-pink:active {
-      background: #CE36DB;
+      background: #ce36db;
       border: 1px solid #110038;
-      box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF; }
+      box-shadow: inset -1px -1px 0 0 #a72cb3, inset 1px 1px 0 0 #ffffff; }
     .tema-noche .button-pink:disabled {
-      background: #B4B4B4;
+      background: #b4b4b4;
       border: 1px solid #808080;
       box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF; }
   .tema-noche .button-red {
-    background: #FF6161;
+    background: #ff6161;
     border: 1px solid #110038;
     box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF; }
   .tema-noche .button-grey {
-    background: #CCCCCC;
+    background: #cccccc;
     border: 1px solid #808080;
     box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF; }
     .tema-noche .button-grey:hover {
-      background: #2E32FB;
+      background: #2e32fb;
       border: 1px solid rgba(51, 53, 143, 0.2);
-      box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF; }
+      box-shadow: inset -1px -1px 0 0 #e6dce4, inset 1px 1px 0 0 #ffffff;
+      color: #ffffff; }
     .tema-noche .button-grey:active {
-      background: #2E32FB;
+      background: #2e32fb;
       border: 1px solid rgba(51, 53, 143, 0.2);
       box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF; }
 

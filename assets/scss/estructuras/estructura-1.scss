@@ -3,19 +3,19 @@
     border: none;
     margin: 0;
     padding: 0;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: "Chakra Petch", sans-serif;
 }
 .page-home {
     margin-top: 35px;
     margin-left: 10%;
     margin-right: 10%;
-} 
+}
 .page-captura {
     margin-top: 35px;
     margin-left: 5%;
     margin-right: 5%;
-}  
-a {   
+}
+a {
     color: #110038;
     cursor: pointer;
 }
@@ -28,10 +28,10 @@ button {
 .h {
     height: 548px;
 }
-.d-flex{
+.d-flex {
     display: flex;
 }
-.d-none{
+.d-none {
     display: none;
 }
 .titulo-bloques {
@@ -47,7 +47,7 @@ button {
     box-sizing: border-box;
     font-size: 12px;
 }
-#inicio {             
+#inicio {
     max-width: 100%;
     height: 30px;
 }
@@ -55,21 +55,22 @@ button {
     width: 40px;
     float: left;
 }
-//cont menu temas 
+//cont menu temas
 .cont-menu {
-    float:right;
+    float: right;
     width: 373px;
     height: 29px;
     display: flex;
     justify-content: space-around;
-}   
-.crear-gifos , .elegir-tema {
+}
+.crear-gifos,
+.elegir-tema {
     padding: 5px 24px;
     min-width: 40px;
 }
-.flecha{
+.flecha {
     margin-left: -8px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 .mis-guifos {
     padding: 1px 1px;
@@ -78,10 +79,10 @@ button {
     line-height: 18px;
     font-weight: 400;
     margin-left: 6px;
-}    
+}
 .m-style {
-text-decoration: underline;
-}  
+    text-decoration: underline;
+}
 #menu-temas {
     display: none;
     padding: 5px 8px;
@@ -89,11 +90,12 @@ text-decoration: underline;
     margin-top: 29px;
     width: 129px;
     flex-wrap: wrap;
-    margin-left: 46px;
+    margin-left: 41px;
     height: 69px;
     z-index: 10;
 }
-.sailor-day , .sailor-night {
+.sailor-day,
+.sailor-night {
     font-size: 0.8em;
     letter-spacing: 0;
     text-align: left;
@@ -101,32 +103,26 @@ text-decoration: underline;
     font-weight: 400;
     width: 100%;
     padding: 5px 12px;
-    margin-top: 2px;  
+    margin-top: 2px;
 }
-//home
-#home{
+#home {
     display: block;
 }
-// BUSCAR  
+// BUSCAR
 .titulo-cont {
     font-size: 14px;
     padding: 4px 6px;
-    // height: 4%;
 }
-.buscar-gifs{
+.buscar-gifs {
     padding: 9px 6px;
     justify-content: space-evenly;
-}    
-.input-buscar{
+}
+.input-buscar {
     padding: 12px;
-    background: #FFFFFF;
+    background: #ffffff;
     border: 1px solid #979797;
     width: 72%;
 }
-// .boton-buscar, .botones{
-//     font-size: 16px;
-//     line-height: 18px;
-// }
 #cont-busqueda {
     display: none;
     padding: 17px;
@@ -141,28 +137,28 @@ text-decoration: underline;
         font-size: 16px;
         margin-bottom: 10px;
     }
-}     
+}
 //TAGS SUGERIDOS
-.cont-tags{
+.cont-tags {
     margin-top: 10px;
     display: none;
 }
-.tags{
+.tags {
     margin-right: 10px;
     padding-left: 6px;
     padding-right: 22px;
     padding-top: 3px;
     padding-bottom: 5px;
 }
-// bloque HOY TE SUGERIMOS 
+// bloque HOY TE SUGERIMOS
 
-.c-contenido{
+.c-contenido {
     width: 100%;
     margin-top: 25px;
 }
 .cont-cuadros {
     position: relative;
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     // height: 360px;
 }
@@ -171,8 +167,8 @@ text-decoration: underline;
     margin-bottom: 3%;
     box-sizing: border-box;
     position: relative;
-    &:hover{
-        .hashtag2{
+    &:hover {
+        .hashtag2 {
             display: flex;
         }
     }
@@ -184,8 +180,8 @@ text-decoration: underline;
     height: 280px;
     margin-top: 3px;
     margin-bottom: 5px;
-} 
- 
+}
+
 .hashtag {
     padding: 2px;
     font-weight: 700;
@@ -207,18 +203,17 @@ text-decoration: underline;
     width: 96.1%;
     box-sizing: border-box;
     margin-left: 2%;
-
 }
-#mis-guifos-home{
+#mis-guifos-home {
     display: none;
 }
 
 // BOTONES
-.button-box{
+.button-box {
     position: relative;
     margin-top: 6%;
     width: 100%;
-    bottom: 6%; 
+    bottom: 6%;
     height: 30px;
 }
 .button-box2 {
@@ -230,7 +225,7 @@ text-decoration: underline;
     padding: 2px 8px;
     box-sizing: border-box;
 }
-.button-m{
+.button-m {
     padding: 5px 32px;
 }
 .button-m-fix {
@@ -261,6 +256,4 @@ text-decoration: underline;
     letter-spacing: 0;
     // text-align: center;
     line-height: 18px;
-} 
-
- 
+}
