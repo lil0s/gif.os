@@ -1,6 +1,11 @@
-# gif.os
-Project for ACAMICA
+# Gif.Os
 
-## Autor
+## Buscador y creador de Gif's de la API Giphy.
 
-Liliana Ospina
+- Búsquedas personalizadas
+- Tendencias
+- Segeridos
+- Creador de Gif's propios
+
+Liliana Ospina - Proyecto Acámica
+[LinkdIn](https://www.linkedin.com/in/lilianaospinau/)
