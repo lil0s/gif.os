@@ -1,7 +1,8 @@
 # Gif.Os
 
 Liliana Ospina - Proyecto Acámica
-[LinkdIn](https://www.linkedin.com/in/lilianaospinau/)
+
+[LinkedIn](https://www.linkedin.com/in/lilianaospinau/)
 
 ## Buscador y creador de Gif's de la API Giphy.
 
